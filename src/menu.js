@@ -1,4 +1,4 @@
-const jsonMenu = "menu.json";
+const jsonMenu = "src/menu.json";
 let coffeeItems = document.querySelector("#coffeeItems");
 let nonCoffeeItems = document.querySelector("#nonCoffeeItems");
 let teaItems = document.querySelector("#teaItems");
