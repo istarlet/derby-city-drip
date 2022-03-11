@@ -26,6 +26,8 @@ app.use(express.static(__dirname));
 
 app.use(express.static("src"));
 
+app.use(express.static("images"));
+
 app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
 });
