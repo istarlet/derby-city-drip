@@ -8,7 +8,100 @@
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
+    <!-- Navigation Section -->
+
+    <header>
+      <section class="container row nav-container">
+        <button class="nav-toggle" aria-label="open navigation">
+          <span class="hamburger"></span>
+        </button>
+
+        <a href="#" class="">
+          <img
+            src="images/logos/derbycitydrip-logo.svg"
+            alt="derby city drip"
+            class="logo"
+          />
+        </a>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#dcd-location" class="nav__link">Location</a>
+            </li>
+            <li class="nav__item">
+              <a href="#menu" class="nav__link">Menu</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <!-- Navigation Section End -->
+
     <main>
+      <!-- Location Map Section -->
+
+      <section class="container">
+        <h2 id="dcd-location" class="quantico uppercase">Location</h2>
+        <p class="location__line-height">1234 W. Main St.</p>
+        <p class="location__line-height">Louisville, KY 40213</p>
+
+        <h2 class="quantico uppercase">Contact</h2>
+        <p class="location__line-height">P: 502-555-5555</p>
+        <p class="location__line-height">E: hello@derbycitydrip.com</p>
+
+        <img
+          src="images/derby-city-drip-map.png"
+          alt="map showing Derby City Drip location"
+        />
+
+        <h2 class="quantico upperase">Hours</h2>
+        <p>
+          These are our current hours, unforeseen circumstances may cause these
+          to change.
+        </p>
+        <br />
+        <table class="">
+          <tbody>
+            <tr>
+              <td>Sun:</td>
+              <td>Closed</td>
+            </tr>
+            <tr>
+              <td>Mon:</td>
+              <td>6am - 10pm</td>
+            </tr>
+            <tr>
+              <td>Tue:</td>
+              <td>6am - 10pm</td>
+            </tr>
+            <tr>
+              <td>Wed:</td>
+              <td>6am - 10pm</td>
+            </tr>
+            <tr>
+              <td>Thu:</td>
+              <td>6am - 10pm</td>
+            </tr>
+            <tr>
+              <td>Fri:</td>
+              <td>6am - 12pm</td>
+            </tr>
+            <tr>
+              <td>Sat:</td>
+              <td>6am - 12pm</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <!-- Location Map Section End -->
+
       <!-- Coffee Menu Section -->
       <section class="container">
         <article class="item__container">
@@ -82,7 +175,7 @@
 
       <section class="pastry__container">
         <article class="item__container">
-          <h2>Pastries / Snacks</h2>
+          <h2 class="hornblende-green">Pastries / Snacks</h2>
           <p class="container__finely-txt">
             Flavour sit brewed ui roast americano mocha single shot affogato.
             Aged, steamed roast white saucer aroma decaffeinated. Caramelization
@@ -129,5 +222,6 @@
     </main>
 
     <script src="src/menu.js"></script>
+    <script src="src/navigation.js"></script>
   </body>
 </html>
