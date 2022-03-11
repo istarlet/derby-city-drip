@@ -12,7 +12,7 @@ To run this example:
 - `npm run dev` or `yarn dev`
 
 ## Javascript Features
-`Read and parse an external file (such as JSON or CSV) into your application and display some data from that in your app`
+`1Read and parse an external file (such as JSON or CSV) into your application and display some data from that in your app`
  
 `Retrieve data from an external API and display data in your app (such as with fetch() or with AJAX)`
 
