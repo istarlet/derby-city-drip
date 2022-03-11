@@ -6,7 +6,7 @@ Type description here
 
 ## How to Run this Project
 
-To run this example:
+To run this project:
 
 - `npm install` or `yarn`
 - `npm run dev` or `yarn dev`
