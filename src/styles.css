@@ -1,9 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+:root {
+  --trapped-darkness: #091b21;
+  --freinacht-black: #233237;
+  --hornblende-green: #204d48;
+  --pistachio-cream: #d5e2e2;
+  --duqqa-brown: #45230f;
+  --deer: #b98957;
+  --beef-hotpot: #a6592f;
+  --xanthous: #f2b129;
+  --white-smoke: #f2f2f2;
+  --lead: #222222;
+  --african-gray: #91999b;
+}
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+
+  text-decoration: none;
+  list-style: none;
 }
 
 body {
@@ -11,20 +32,70 @@ body {
   font-size: 1.3125rem;
   line-height: 1.4;
   color: #333;
-  margin: 0;
 }
 
 img {
   max-width: 100%;
+  object-fit: scale-down;
 }
 
-.txt__uppercase {
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pistachio-cream {
+  background: #d5e2e2;
+}
+
+.white {
+  color: #ffffff;
+}
+
+/* Font Styles */
+.quantico {
+  font-family: "Quantico", sans-serif;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.tt-uppercase {
   text-transform: uppercase;
+}
+
+.center {
+  text-align: center;
 }
 
 .txt__line-height {
   line-height: 1.75em;
 }
+
+/* Font Styles End */
+
+/* Hero Section */
+.hero-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.coffee-cup {
+  width: 50%;
+}
+
+/* Hero Section End */
 
 h1,
 h2,
@@ -63,11 +134,15 @@ p {
   margin: 0.8em 0 0;
 }
 
-.container {
-  width: 80%;
-  max-width: 1100px;
-  margin: 0 auto;
+/* Finely Roasted Coffee Section */
+.roastedcoffee__container {
+  background-image: url("/images/coffee-beans-bg.jpg");
+  background-attachment: none;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+/* Finely Roasted Coffee Section End */
 
 .flex-container,
 .location__flex {
