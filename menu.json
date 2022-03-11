@@ -1,0 +1,166 @@
+{
+  "coffee": [
+    {
+      "menuItem": "Coffee of the Day",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 4.99,
+      "id": 1
+    },
+    {
+      "menuItem": "Coffee Au Lait",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 3.99,
+      "id": 2
+    },
+    {
+      "menuItem": "Red Eye",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 6.99,
+      "id": 3
+    },
+    {
+      "menuItem": "Cold Brew Iced",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 4.99,
+      "id": 4
+    },
+    {
+      "menuItem": "Fair Trade Mocha",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 4.99,
+      "id": 5
+    },
+    {
+      "menuItem": "Beekeeper",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 4.99,
+      "id": 6
+    },
+    {
+      "menuItem": "Mocha",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 3.99,
+      "id": 7
+    },
+    {
+      "menuItem": "Expresso",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 4.99,
+      "id": 8
+    },
+    {
+      "menuItem": "Americano",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 3.99,
+      "id": 9
+    },
+    {
+      "menuItem": "Coffee Au Lait",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 3.99,
+      "id": 10
+    },
+    {
+      "menuItem": "Macchiato",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 4.99,
+      "id": 11
+    },
+    {
+      "menuItem": "Con Panna",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 3.99,
+      "id": 12
+    },
+    {
+      "menuItem": "Cappuccino",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 4.99,
+      "id": 13
+    },
+    {
+      "menuItem": "Latte",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 4.99,
+      "id": 14
+    }
+  ],
+  "noncoffee": [
+    {
+      "menuItem": "Hot Chocolate",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 2.99,
+      "id": 15
+    },
+    {
+      "menuItem": "White Hot Chocolate",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 2.99,
+      "id": 16
+    },
+    {
+      "menuItem": "Steamed Apple Juice",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 2.99,
+      "id": 17
+    },
+    {
+      "menuItem": "Steamed Milk",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 2.99,
+      "id": 18
+    }
+  ],
+  "tea": [
+    {
+      "menuItem": "Loose-Leaf Tea",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 4.99,
+      "id": 19
+    },
+    {
+      "menuItem": "Tea Au Lait",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 3.99,
+      "id": 20
+    },
+    {
+      "menuItem": "Iced",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 4.99,
+      "id": 21
+    },
+    {
+      "menuItem": "Matcha Latte",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 3.99,
+      "id": 22
+    }
+  ],
+  "food": [
+    {
+      "menuItem": "Donut",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 1.99,
+      "id": 23
+    },
+    {
+      "menuItem": "Cookie - 3 Pack",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 3.99,
+      "id": 24
+    },
+    {
+      "menuItem": "Scone",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 2.99,
+      "id": 25
+    },
+    {
+      "menuItem": "Brownie",
+      "description": "Carmelization skinny brewed, foam extra eu latte cream grounds to go plunger pot.",
+      "price": 2.99,
+      "id": 26
+    }
+  ]
+}

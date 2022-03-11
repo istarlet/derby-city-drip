@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="coffee__container">
+        <h2>Coffee</h2>
+        <div id="coffeeItems" class="coffee-grid">
+          <!--
+                <div>
+            <div class="menuType coffee-item">
+                <h3></h3>
+                <h3></h3>
+                </div>
+              <p></p>
+            </div>
+            -->
+        </div>
+      </section>
+
+      <section class="noncoffee__container">
+        <h2>Non-Coffee</h2>
+        <div id="nonCoffeeItems" class="noncoffee-grid">
+          <!--
+          <div>
+      <div class="menuType noncoffee-item">
+          <h3></h3>
+          <h3></h3>
+          </div>
+        <p></p>
+      </div>
+      -->
+        </div>
+      </section>
+
+      <section class="tea__container">
+        <h2>Tea</h2>
+        <div id="teaItems" class="tea-grid">
+          <!--
+                <div>
+            <div class="menuType tea-item">
+                <h3></h3>
+                <h3></h3>
+                </div>
+              <p></p>
+            </div>
+            -->
+        </div>
+      </section>
+
+      <section class="pastry__container">
+        <h2>Pastries / Snacks</h2>
+        <div id="pastryItems" class="pastry-grid">
+          <!--
+                <div>
+           <div class="menuType pastry-item">
+                <h3></h3>
+                <h3></h3>
+                </div>
+              <p></p>
+            </div>
+            -->
+        </div>
+      </section>
+
+      <form method="post" action="/">
+        <div id="name-block">
+          <label for="title"> First Name: </label>
+          <input
+            type="text"
+            name="title"
+            id="title"
+            placeholder="First Name"
+            required
+          />
+        </div>
+        <div id="email-address">
+          <label for="content"> Email Address: </label>
+          <input
+            type="email"
+            name="content"
+            id="content"
+            placeholder="Email Address"
+            required
+          />
+        </div>
+        <button type="submit" class="signup__button" id="button">
+          I want free coffee!
+        </button>
+      </form>
+    </main>
+
+    <script src="src/menu.js"></script>
+  </body>
+</html>
