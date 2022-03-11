@@ -17,7 +17,7 @@ fetch(jsonMenu)
             <h3>${coffeeType.price}</h3>
           </div>
           <p>${coffeeType.description}</p>
-        </div>
+          </div>
         `;
       })
       .join("");
