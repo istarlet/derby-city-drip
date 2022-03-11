@@ -4,7 +4,7 @@ Type description here
 
 [Derby City Drip](https://github.com/istarlet/derby_city_drip)
 
-## How to Run Project
+## How to Run this Project
 
 To run this example:
 
