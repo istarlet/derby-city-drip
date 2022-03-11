@@ -24,6 +24,8 @@ const Form = mongoose.model("Form", formSchema);
 
 app.use(express.static(__dirname));
 
+app.use(express.static("src"));
+
 app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
 });
