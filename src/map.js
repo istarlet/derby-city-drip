@@ -1,8 +1,13 @@
-const map = L.map("mymap").setView([51.505, -0.09], 13);
-
+// Making a map and tiles
+const map = L.map("mapLouisville").setView([38.25817, -85.77126], 17);
 const attribution =
   '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreet Map</a> contributors';
 
 const tileUrl = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
 const tiles = L.tileLayer(tileUrl, { attribution });
-tiles.addTo(mymap);
+tiles.addTo(map);
+
+// Making a custom location marker
+L.marker([38.25817, -85.77126]).addTo(map)
+    .bindPopup('Derby City Drip <br /> Coffee Shop')
+    .openPopup();

@@ -34,13 +34,17 @@ body {
   color: #333;
 }
 
-#map {
-  height: 180px;
+#mapLouisville {
+  height: 280px;
 }
 
 img {
   max-width: 100%;
   object-fit: scale-down;
+}
+
+.bindPopup {
+  text-align: center;
 }
 
 .container {
