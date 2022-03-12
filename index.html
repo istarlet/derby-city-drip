@@ -3,9 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <title>Derby City Drip Coffee Company</title>
     <link rel="stylesheet" href="src/styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
   </head>
   <body>
     <!-- Navigation Section -->
@@ -94,10 +110,13 @@
         <p class="location__line-height">P: 502-555-5555</p>
         <p class="location__line-height">E: hello@derbycitydrip.com</p>
 
-        <img
-          src="images/derby-city-drip-map.png"
-          alt="map showing Derby City Drip location"
+        <div id="mymap"></div>
+        <script src="src/map.js"></script>
+
+        <!--
+        <img src="images/derby-city-drip-map.png" alt="map showing Derby City Drip location"
         />
+        -->
 
         <h2 class="quantico upperase">Hours</h2>
         <p>
