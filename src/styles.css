@@ -48,8 +48,11 @@ img {
 }
 
 .container {
+  /*
   width: 85%;
   max-width: 1200px;
+  */
+  width: min(1200px, calc(70% + 100px));
   margin: 0 auto;
 }
 
@@ -97,14 +100,26 @@ img {
 /* Font Styles End */
 
 /* Hero Section */
-.hero-flex {
+.flex-container {
   display: flex;
   flex-direction: column;
-  gap: 2em;
+}
+
+.hero-flex {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+
+
+}
+
+hero-txt {
+  width: 50%;
 }
 
 .coffee-cup {
-  width: 50%;
+  
 }
 
 /* Hero Section End */
