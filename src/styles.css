@@ -243,7 +243,6 @@ header {
 
 /* Navigation Styles End */
 
-
 /* Finely Roasted Coffee Section */
 .roastedcoffee__container {
   background-image: url("/images/coffee-beans-bg.jpg");
@@ -448,6 +447,14 @@ form {
   max-width: 40em;
   margin: auto;
   padding: 2em 0;
+
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "name"
+    "email"
+    "button";
+  gap: 1em;
 }
 
 label {
@@ -472,28 +479,16 @@ input {
   border-radius: 10px;
   background-color: #a6592f;
   color: #ffffff;
-  font-family: "Quantico", sans-serif;
-  font-weight: 900;
   font-size: 0.9em;
   text-transform: uppercase;
   cursor: pointer;
 }
 
-form {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  grid-template-areas:
-    "name"
-    "email"
-    "button";
-  gap: 1em;
-}
-
-#name-block {
+#name {
   grid-area: name;
 }
 
-#email-block {
+#email-address {
   grid-area: email;
 }
 
@@ -523,7 +518,7 @@ form {
   grid-template-columns: repeat(
     auto-fit,
     minmax(max(var(--w), 100%/ (var(--n) + 1) + 0.1%), 1fr)
-  ); 
+  );
   gap: 2.5em 4em;
 }
 
@@ -628,6 +623,7 @@ p a {
 
   .signup__button {
     font-size: 1.25rem;
+    align-self: center;
   }
 
   .footer__info {
@@ -636,7 +632,6 @@ p a {
 }
 
 @media (min-width: 800px) {
-
   .nav-toggle {
     display: none;
   }
