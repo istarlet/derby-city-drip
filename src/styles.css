@@ -102,20 +102,17 @@ img {
 /* Hero Section */
 .flex-container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
+
+
 .hero-flex {
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  
-
-
+  flex: 400px;
 }
 
 hero-txt {
-  width: 50%;
+ 
 }
 
 .coffee-cup {
