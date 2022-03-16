@@ -8,8 +8,8 @@ Type description here
 
 To run this project:
 
-- `npm install` or `yarn`
-- `npm run dev` or `yarn dev`
+- `npm install` 
+- `npm run dev` 
 
 ## Javascript Features
 `1. Read and parse an external file (such as JSON or CSV) into your application and display some data from that in your app`
