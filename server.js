@@ -36,8 +36,8 @@ app.get("/", function (req, res) {
 app.post("/", function (req, res) {
   
   let newForm = new Form({
-    name: req.body.title,
-    email: req.body.content,
+    name: req.body.name,
+    email: req.body.email,
   });
   newForm.save();
   res.redirect("/");
