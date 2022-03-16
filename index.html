@@ -103,30 +103,33 @@
 
       <!-- Location Map Section -->
 
-      <section class="container">
+      <section class="location__container">
+<div class="container location__grid">
+        <div id="location">
         <h2 id="dcd-location" class="quantico uppercase">Location</h2>
         <p class="location__line-height">1234 W. Main St.</p>
         <p class="location__line-height">Louisville, KY 40213</p>
+</div>
 
+<div id="phone">
         <h2 class="quantico uppercase">Contact</h2>
         <p class="location__line-height">P: 502-555-5555</p>
         <p class="location__line-height">E: hello@derbycitydrip.com</p>
+        </div>
 
+       <div id="map">
         <div id="mapLouisville"></div>
         <script src="src/map.js"></script>
+</div>
 
-        <!--
-        <img src="images/derby-city-drip-map.png" alt="map showing Derby City Drip location"
-        />
-        -->
-
+     <div id="hours">
         <h2 class="quantico upperase">Hours</h2>
         <p>
           These are our current hours, unforeseen circumstances may cause these
           to change.
         </p>
         <br />
-        <table class="">
+        <table class="table__hours uppercase txt__line-height">
           <tbody>
             <tr>
               <td>Sun:</td>
@@ -158,6 +161,8 @@
             </tr>
           </tbody>
         </table>
+        </div>
+</div>
       </section>
       <!-- Location Map Section End -->
 
