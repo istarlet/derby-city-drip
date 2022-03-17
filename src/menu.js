@@ -7,72 +7,64 @@ let pastryItems = document.querySelector("#pastryItems");
 fetch(jsonMenu)
   .then((response) => response.json())
   .then((data) => {
-    console.log(data.coffee);
     const coffee = data.coffee
-      .map((coffeeType) => {
+      .map((typeCoffee) => {
         return `
         <div>
         <div class="coffee-item">
-            <h3>${coffeeType.menuItem}</h3>
-            <h3>${coffeeType.price}</h3>
+            <h3>${typeCoffee.menuItem}</h3>
+            <h3>${typeCoffee.price}</h3>
           </div>
-          <p>${coffeeType.description}</p>
+          <p>${typeCoffee.description}</p>
           </div>
         `;
       })
       .join("");
 
     const noncoffee = data.noncoffee
-      .map((nonCoffeeType) => {
+      .map((typeNonCoffee) => {
         return `
         <div>
         <div class="noncoffee-item">
-            <h3>${nonCoffeeType.menuItem}</h3>
-            <h3>${nonCoffeeType.price}</h3>
+            <h3>${typeNonCoffee.menuItem}</h3>
+            <h3>${typeNonCoffee.price}</h3>
           </div>
-          <p>${nonCoffeeType.description}</p>
+          <p>${typeNonCoffee.description}</p>
         </div>
         `;
       })
       .join("");
 
     const tea = data.tea
-      .map((teaType) => {
+      .map((typeTea) => {
         return `
         <div>
         <div class="tea-item">
-            <h3>${teaType.menuItem}</h3>
-            <h3>${teaType.price}</h3>
+            <h3>${typeTea.menuItem}</h3>
+            <h3>${typeTea.price}</h3>
           </div>
-          <p>${teaType.description}</p>
+          <p>${typeTea.description}</p>
         </div>
         `;
       })
       .join("");
 
     const food = data.food
-      .map((pastryType) => {
+      .map((typePastry) => {
         return `
         <div>
         <div class="pastry-item">
-            <h3>${pastryType.menuItem}</h3>
-            <h3>${pastryType.price}</h3>
+            <h3>${typePastry.menuItem}</h3>
+            <h3>${typePastry.price}</h3>
           </div>
-          <p>${pastryType.description}</p>
+          <p>${typePastry.description}</p>
         </div>
         `;
       })
       .join("");
 
-    console.log(coffee);
     coffeeItems.insertAdjacentHTML("beforeend", coffee);
-
-    console.log(noncoffee);
     nonCoffeeItems.insertAdjacentHTML("beforeend", noncoffee);
-
-    console.log(tea);
     teaItems.insertAdjacentHTML("beforeend", tea);
-
-    console.log(food);
     pastryItems.insertAdjacentHTML("beforeend", food);
   });
