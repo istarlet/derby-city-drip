@@ -270,7 +270,7 @@ header {
 }
 
 .hero-img {
-  justify-content: end;
+  justify-self: flex-end;
 }
 
 /* Hero Styles End */
