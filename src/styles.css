@@ -252,7 +252,7 @@ header {
 /* Hero Styles */
 
 .hero-container {
-  --w: 400px;
+  --w: 350px;
   --n: 2;
   display: grid;
   grid-template-columns: repeat(
@@ -261,12 +261,16 @@ header {
   );
   gap: 10px;
 
-  justify-items: center;
+  justify-content: space-between;
   align-items: center;
 }
 
 .hero p {
   margin-bottom: 2em;
+}
+
+.hero-img {
+  justify-content: end;
 }
 
 /* Hero Styles End */
@@ -371,14 +375,14 @@ header {
 }
 
 @media (min-width: 800px) {
-.location__grid {
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas:
-    "location phone"
-    "map map"
-    "hours hours";
-  gap: 2em;
-}
+  .location__grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "location phone"
+      "map map"
+      "hours hours";
+    gap: 2em;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -387,7 +391,7 @@ header {
     grid-template-areas:
       "location phone hours"
       "map map hours";
-  gap: 2em;
+    gap: 2em;
   }
 }
 
@@ -585,7 +589,6 @@ input {
     auto-fit,
     minmax(max(var(--w), 100%/ (var(--n) + 1) + 0.1%), 1fr)
   );
-
 }
 
 .copyright-txt {
