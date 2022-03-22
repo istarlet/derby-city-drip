@@ -233,24 +233,12 @@ header {
   width: 100%;
 }
 
-
 .logo {
   padding: 1em 0;
   
 }
 
-
 /* Navigation Styles End */
-
-/* Finely Roasted Coffee Section */
-.roastedcoffee__container {
-  background-image: url("/images/coffee-beans-bg.jpg");
-  background-attachment: none;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-/* Finely Roasted Coffee Section End */
 
 /* Hero Styles */
 
@@ -279,7 +267,7 @@ header {
 
 /* Hero Styles End */
 
-/* Button Styles */
+/* Hero Button Styles */
 
 .btn {
   display: inline-block;
@@ -297,17 +285,13 @@ header {
 .btn:focus {
   opacity: 0.75;
 }
-/* Button Style End */
+/* Hero Button Style End */
 
 /* Finely Roasted Section Styles */
-
-.finely__container {
-  color: white;
-  background-image: url("images/coffee-beans-bg.jpg");
-  background-attachment: none;
+.roastedcoffee-background {
+  background-image: url("/images/coffee-beans-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 4em 0;
 }
 
 .container__finely {
@@ -319,6 +303,7 @@ header {
 .finely__container p {
   color: #fff;
 }
+
 
 /* Finely Roasted Section Styles End */
 
@@ -627,7 +612,7 @@ p a {
 @media (min-width: 800px) {
   .container {
     width: 80%;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
     position: relative;
 }
@@ -659,6 +644,7 @@ p a {
       background: #d5e2e2;
     }
     
+    
     .nav__item {
       margin: 0 0 0 1.5em;
     }
@@ -675,8 +661,9 @@ p a {
   
     .row {
       display: flex;
-      justify-content: space-between;
+     
     }
+    
 
     .container img {
       display: flex;
