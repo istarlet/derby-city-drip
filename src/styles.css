@@ -36,17 +36,18 @@ body {
 
 img {
   max-width: 100%;
-  object-fit: scale-down;
 }
 
 .bindPopup {
   text-align: center;
 }
 
+/*
 .container {
   width: min(1200px, calc(70% + 100px));
   margin: 0 auto;
 }
+*/
 
 .hornblende-green {
   color: #204d48;
@@ -95,7 +96,7 @@ h3,
 h4,
 .nav__item {
   font-family: "Quantico", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
 }
@@ -103,7 +104,7 @@ h4,
 h1 {
   font-size: 2.5rem;
   line-height: 1.2;
-  text-align: center;
+  text-align: left;
 }
 
 h2 {
@@ -231,11 +232,12 @@ header {
   width: 100%;
 }
 
+
 .logo {
   padding: 1em 0;
-  justify-content: flex-start;
-  align-items: center;
+  
 }
+
 
 /* Navigation Styles End */
 
@@ -263,6 +265,7 @@ header {
 
   justify-content: space-between;
   align-items: center;
+  text-align: left;
 }
 
 .hero p {
@@ -359,7 +362,7 @@ header {
 }
 
 #mapLouisville {
-  height: 280px;
+  height: 380px;
 }
 
 #hours {
@@ -657,7 +660,15 @@ p a {
 
   .row {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
   }
+
+
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
 }
 /* Media Queries End */
