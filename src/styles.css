@@ -294,17 +294,6 @@ header {
   background-repeat: no-repeat;
 }
 
-.container__finely {
-  width: 80%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.finely__container p {
-  color: #fff;
-}
-
-
 /* Finely Roasted Section Styles End */
 
 /* Location Section Styles */
