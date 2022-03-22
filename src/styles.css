@@ -563,13 +563,24 @@ input {
     auto-fit,
     minmax(max(var(--w), 100%/ (var(--n) + 1) + 0.1%), 1fr)
   );
+
 }
 
 .copyright-txt {
   color: #f2f2f2;
   font-size: 1rem;
-  text-align: center;
+  display: flex;
+justify-content: space-between;
 }
+
+/*
+.privacy-txt {
+  color: #f2f2f2;
+  display: flex;
+  font-size: 1rem;
+  justify-items: space-evenly;
+}
+*/
 
 p a {
   color: #f2f2f2;
@@ -649,7 +660,6 @@ p a {
      
     }
     
-
     .container img {
       display: flex;
     }
