@@ -13,6 +13,7 @@ To run this project:
 
 ## Javascript Features
 `1. Read and parse an external file (such as JSON or CSV) into your application and display some data from that in your app`
+
 I created a json file that contains the Derby City Drip Coffee Shop menu items divided into groups: Coffee, Non-Coffee, Tea, and Pastry.
 
 `2. Create a form and save the values (on click of Submit button) to an external file`
