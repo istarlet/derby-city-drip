@@ -16,7 +16,7 @@ To run this project:
 I created a json file that contains the Derby City Drip Coffee Shop menu items divided into groups: Coffee, Non-Coffee, Tea, and Pastry.
 
 `2. Create a form and save the values (on click of Submit button) to an external file 
-  *You must show us or document where that information is being stored so we can confirm that it’s being saved/persisted`
+⋅⋅*You must show us or document where that information is being stored so we can confirm that it’s being saved/persisted`
 
  
 `3. Create an array, dictionary or list, populate it with multiple values, retrieve at least one value, and use or display it in your application`
