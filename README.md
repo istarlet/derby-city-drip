@@ -18,6 +18,7 @@ I created a json file that contains the Derby City Drip Coffee Shop menu items d
 `2. Create a form and save the values (on click of Submit button) to an external file`
  
 `3. Create an array, dictionary or list, populate it with multiple values, retrieve at least one value, and use or display it in your application`
+
 Each group of menu items (Coffee, Non-Cofee, Tea, and Pastry) are setup as an array in the menu.json file. I used fetch() to grab each array from the menu.json file and display the data as individual menu items in html on the web page. 
 
 ## Additional Javascript Feature
