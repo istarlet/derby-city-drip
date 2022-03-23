@@ -3,5 +3,6 @@ const log = document.getElementById("log");
 
 form.addEventListener("submit", (e) => {
   log.textContent = "Form Submitted!";
-  //e.preventDefault();
+  form.reset();
+  e.preventDefault();
 });

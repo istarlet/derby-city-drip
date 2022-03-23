@@ -39,7 +39,7 @@ app.post("/", function (req, res) {
     email: req.body.email,
   });
   newForm.save();
-  res.redirect("localhost:3000/");
+  res.redirect("/");
 });
 
 //port listener
