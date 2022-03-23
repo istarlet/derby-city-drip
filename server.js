@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
+const res = require("express/lib/response");
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -20,7 +21,6 @@ app.use(express.static("src"));
 
 app.use(express.static("images"));
 
-
 //create a data schema
 const formSchema = {
   name: String,
@@ -34,13 +34,12 @@ app.get("/", function (req, res) {
 });
 
 app.post("/", function (req, res) {
-  
   let newForm = new Form({
     name: req.body.name,
     email: req.body.email,
   });
   newForm.save();
-  res.redirect("/");
+  res.redirect("localhost:3000/");
 });
 
 //port listener
