@@ -34,6 +34,7 @@ app.get("/", function (req, res) {
 });
 
 app.use(bodyParser.json());
+app.use(express.json());
 
 app.post("/", function (req, res) {
   // res.send( {
@@ -44,6 +45,8 @@ app.post("/", function (req, res) {
     name: req.body.name,
     email: req.body.email,
   });
+
+  // response.status(201).json(newForm);
   newForm.save();
   res.redirect("/");
 });
