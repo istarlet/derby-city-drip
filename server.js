@@ -33,8 +33,14 @@ app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
 });
 
+app.use(bodyParser.json());
+
 app.post("/", function (req, res) {
-  let newForm = new Form({
+  // res.send( {
+  //   method: "POST",
+  //   message: "Success"
+  // });
+  const newForm = new Form({
     name: req.body.name,
     email: req.body.email,
   });
