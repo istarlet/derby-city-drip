@@ -3,6 +3,7 @@ const app = express();
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const res = require("express/lib/response");
+const { response } = require("express");
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -34,19 +35,13 @@ app.get("/", function (req, res) {
 });
 
 app.use(bodyParser.json());
-app.use(express.json());
 
 app.post("/", function (req, res) {
-  // res.send( {
-  //   method: "POST",
-  //   message: "Success"
-  // });
   const newForm = new Form({
     name: req.body.name,
     email: req.body.email,
   });
 
-  // response.status(201).json(newForm);
   newForm.save();
   res.redirect("/");
 });

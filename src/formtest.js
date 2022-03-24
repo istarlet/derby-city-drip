@@ -1,11 +1,5 @@
-// /**
-//  * Helper function for POSTing data as JSON with fetch.
-//  *
-//  * @param {Object} options
-//  * @param {string} options.url - URL to POST data to
-//  * @param {FormData} options.formData - `FormData` instance
-//  * @return {Object} - Response body from URL that was POSTed to
-//  */
+const successMsg = document.getElementById("button");
+
 async function postFormDataAsJson({ url, formData }) {
   const plainFormData = Object.fromEntries(formData.entries());
   const formDataJsonString = JSON.stringify(plainFormData);
@@ -21,7 +15,7 @@ async function postFormDataAsJson({ url, formData }) {
 
   const response = await fetch(url, fetchOptions);
   // This is where I add things once form is submitted
-  log.textContent = `Form Submitted!`;
+  successMsg.textContent = "Form Submitted!";
   exampleForm.reset();
 
   if (!response.ok) {
@@ -32,13 +26,6 @@ async function postFormDataAsJson({ url, formData }) {
   return response.json();
 }
 
-// /**
-//  * Event handler for a form submit event.
-//  *
-//  * @see https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/submit_event
-//  *
-//  * @param {SubmitEvent} event
-//  */
 async function handleFormSubmit(event) {
   event.preventDefault();
 
