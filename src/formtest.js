@@ -1,4 +1,5 @@
 const successMsg = document.getElementById("button");
+const exampleForm = document.getElementById("example-form");
 
 async function postFormDataAsJson({ url, formData }) {
   const plainFormData = Object.fromEntries(formData.entries());
@@ -37,9 +38,8 @@ async function handleFormSubmit(event) {
     const responseData = await postFormDataAsJson({ url, formData });
     console.log({ responseData });
   } catch (error) {
-    console.error(error);
+    console.log(error);
   }
 }
 
-const exampleForm = document.getElementById("example-form");
 exampleForm.addEventListener("submit", handleFormSubmit);
