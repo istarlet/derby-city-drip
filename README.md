@@ -4,10 +4,6 @@ I refactored the one-page website for the fictional **Derby City Drip** coffee s
 
 You can view the original **Derby City Drip** project [here](https://github.com/istarlet/derby_city_drip). 
 
-I created a one-page website for the fictional **Derby City Drip** coffee shop for my FEWD [Code Kentucky](https://codekentucky.org/) project. The design mockups came from [Code Louisville FEWD Coffee Shop](https://github.com/CodeLouisville/FEWD-CoffeeShop). I approached this project like I was a frontend web developer and my job was to turn the provided mockups into a fully functioning one-page website. I tried to recreate the mockups as faithfully as possible. 
-
-
-
 ## How to Run this Project
 
 To run this project:
