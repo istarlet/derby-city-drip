@@ -1,8 +1,8 @@
 # Derby City Drip v2.0
 ## Description
-Type description here
+I refactored the one-page website for the fictional **Derby City Drip** coffee shop I originally coded during Code Kentucky FEWD Session 1 for my [Code Kentucky](https://codekentucky.org/) FEWD Session 2 project.
 
-[Derby City Drip](https://github.com/istarlet/derby_city_drip)
+You can view the original **Derby City Drip** project [here](https://github.com/istarlet/derby_city_drip). 
 
 ## How to Run this Project
 
@@ -22,9 +22,9 @@ I created a json file that contains the Derby City Drip Coffee Shop menu items d
  
 `3. Create an array, dictionary or list, populate it with multiple values, retrieve at least one value, and use or display it in your application`
 
-Each group of menu items (Coffee, Non-Cofee, Tea, and Pastry) are setup as an array in the menu.json file. I used fetch() to grab each array from the menu.json file and display the data as individual menu items in html on the web page. 
+Each group of menu items (Coffee, Non-Cofee, Tea, and Pastry) are setup as an array in the menu.json file. I used fetch() to grab each array from the menu.json file and displayed the data as individual menu items in html on the web page. 
 
 ## Additional Javascript Feature
 `Create a web server with at least one route and connect to it from your application using ExpressJS`
 
-https://www.sitepoint.com/forms-file-uploads-security-node-express/
+
