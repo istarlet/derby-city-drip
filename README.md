@@ -11,6 +11,8 @@ To run this project:
 - `npm install` 
 - `npm run dev` 
 
+After running the server, please view my project at http://localhost:3000/
+
 ## Javascript Features
 `1. Read and parse an external file (such as JSON or CSV) into your application and display some data from that in your app`
 
