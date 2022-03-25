@@ -12,8 +12,8 @@ fetch(jsonMenu)
         return `
         <div>
         <div class="coffee-item">
-            <h3>${typeCoffee.menuItem}</h3>
-            <h3>${typeCoffee.price}</h3>
+            <h3 class="quantico uppercase fs-106 duqqa-brown">${typeCoffee.menuItem}</h3>
+            <h3 class="quantico uppercase fs-106 duqqa-brown">${typeCoffee.price}</h3>
           </div>
           <p>${typeCoffee.description}</p>
           </div>
@@ -26,8 +26,8 @@ fetch(jsonMenu)
         return `
         <div>
         <div class="noncoffee-item">
-            <h3>${typeNonCoffee.menuItem}</h3>
-            <h3>${typeNonCoffee.price}</h3>
+            <h3 class="quantico uppercase fs-106 duqqa-brown">${typeNonCoffee.menuItem}</h3>
+            <h3 class="quantico uppercase fs-106 duqqa-brown">${typeNonCoffee.price}</h3>
           </div>
           <p>${typeNonCoffee.description}</p>
         </div>
@@ -40,8 +40,8 @@ fetch(jsonMenu)
         return `
         <div>
         <div class="tea-item">
-            <h3>${typeTea.menuItem}</h3>
-            <h3>${typeTea.price}</h3>
+            <h3 class="quantico uppercase fs-106 duqqa-brown">${typeTea.menuItem}</h3>
+            <h3 class="quantico uppercase fs-106 duqqa-brown">${typeTea.price}</h3>
           </div>
           <p>${typeTea.description}</p>
         </div>
@@ -54,8 +54,8 @@ fetch(jsonMenu)
         return `
         <div>
         <div class="pastry-item">
-            <h3>${typePastry.menuItem}</h3>
-            <h3>${typePastry.price}</h3>
+            <h3 class="quantico uppercase fs-106 duqqa-brown">${typePastry.menuItem}</h3>
+            <h3 class="quantico uppercase fs-106 duqqa-brown">${typePastry.price}</h3>
           </div>
           <p>${typePastry.description}</p>
         </div>
