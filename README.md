@@ -1,6 +1,10 @@
 # Derby City Drip v2.0
 ## Description
-Type description here
+I refactored the one-page website for the fictional **Derby City Drip** coffee shop I originally coded for my [Code Kentucky](https://codekentucky.org/)FEWD Session 2 project.
+
+You can view the original **Derby City Drip** website [here](https://github.com/istarlet/derby_city_drip). 
+
+I created a one-page website for the fictional **Derby City Drip** coffee shop for my FEWD [Code Kentucky](https://codekentucky.org/) project. The design mockups came from [Code Louisville FEWD Coffee Shop](https://github.com/CodeLouisville/FEWD-CoffeeShop). I approached this project like I was a frontend web developer and my job was to turn the provided mockups into a fully functioning one-page website. I tried to recreate the mockups as faithfully as possible. 
 
 [Derby City Drip](https://github.com/istarlet/derby_city_drip)
 
