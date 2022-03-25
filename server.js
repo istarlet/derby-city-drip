@@ -6,6 +6,7 @@ const res = require("express/lib/response");
 const { response } = require("express");
 
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
 mongoose.connect(
   "mongodb+srv://admin:dojgDsTQw7bnOS79@cluster0.ilbn4.mongodb.net/formDB",
@@ -33,8 +34,6 @@ const Form = mongoose.model("Form", formSchema);
 app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
 });
-
-app.use(bodyParser.json());
 
 app.post("/", function (req, res) {
   const newForm = new Form({
