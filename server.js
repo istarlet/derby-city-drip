@@ -39,13 +39,14 @@ app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
 });
 
-app.post("/dcdform", function (req, res) {
+app.post("/formdcd", function (req, res) {
   const newForm = new Form({
     name: req.body.name,
     email: req.body.email,
   });
 
   newForm.save();
+  res.redirect("back");
 });
 
 //port listener
