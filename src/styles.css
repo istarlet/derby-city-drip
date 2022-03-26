@@ -466,7 +466,7 @@ input {
   cursor: pointer;
 }
 
-#name {
+#first-name {
   grid-area: name;
 }
 
