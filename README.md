@@ -27,4 +27,10 @@ Each group of menu items (Coffee, Non-Cofee, Tea, and Pastry) are setup as an ar
 ## Additional Javascript Feature
 `Create a web server with at least one route and connect to it from your application using ExpressJS`
 
+## Javascript Features Not Listed on Project Requirements
+`Use Leaflet.js to create an interactive map`
+I used Leaflet.js to create a map of Louisville and created a marker with a pop-up to mark where the fictional **Derby City Drip** coffee shop resides on the map. 
+
+
+
 
