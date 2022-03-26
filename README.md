@@ -30,7 +30,7 @@ Each group of menu items (Coffee, Non-Cofee, Tea, and Pastry) are setup as an ar
 ## Javascript Features Not Listed on Project Requirements
 `Use Leaflet.js to create an interactive map`
 
-I used Leaflet.js to create a map of Louisville and created a marker with a pop-up to mark where the fictional **Derby City Drip** coffee shop resides on the map. 
+I used Leaflet.js to display a map of Louisville that you can zoom in and out of plus created a marker with a pop-up to mark where the fictional **Derby City Drip** coffee shop resides on the map.
 
 
 
