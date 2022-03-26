@@ -19,6 +19,8 @@ After running the server, please view my project at http://localhost:3000/
 I created a json file that contains the Derby City Drip Coffee Shop menu items divided into groups: Coffee, Non-Coffee, Tea, and Pastry.
 
 `2. Create a form and save the values (on click of Submit button) to an external file`
+
+The email signup form saves the NAME and EMAIL to MongoDB Atlas, the cloud based version of MongoDB. 
  
 `3. Create an array, dictionary or list, populate it with multiple values, retrieve at least one value, and use or display it in your application`
 
@@ -26,6 +28,8 @@ Each group of menu items (Coffee, Non-Cofee, Tea, and Pastry) are setup as an ar
 
 ## Additional Javascript Feature
 `Create a web server with at least one route and connect to it from your application using ExpressJS`
+
+I connected my signup form to MongoDB Atlas by creating a web server in ExpressJS. 
 
 ## Javascript Feature Not Listed on Project Requirements
 `Use Leaflet.js to create an interactive map`
