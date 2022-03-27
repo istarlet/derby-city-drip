@@ -552,6 +552,11 @@ input {
   cursor: pointer;
 }
 
+.signup__button:hover,
+.signup__button:focus {
+  opacity: 0.85;
+}
+
 #first-name {
   grid-area: name;
 }
