@@ -4,11 +4,8 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const res = require("express/lib/response");
 const { response } = require("express");
-var cors = require("cors");
 
-app.use(cors());
-
-app.use(express.json());
+app.use(express.json({ extended: false }));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -46,7 +43,7 @@ app.post("/formdcd", function (req, res) {
   });
 
   newForm.save();
-  res.redirect("back");
+  res.redirect("/");
 });
 
 //port listener
