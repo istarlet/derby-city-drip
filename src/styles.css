@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
+/* Color Codes */
 :root {
   --trapped-darkness: #091b21;
   --freinacht-black: #233237;
@@ -15,6 +16,25 @@
   --african-gray: #91999b;
 }
 
+.duqqa-brown {
+  color: #45230f;
+}
+
+.hornblende-green {
+  color: #204d48;
+}
+
+.pistachio-cream {
+  background: #d5e2e2;
+}
+
+.white-smoke {
+  color: #f2f2f2;
+}
+
+/* Color Codes End */
+
+/* Generic Styles */
 *,
 *::before,
 *::after {
@@ -47,21 +67,7 @@ img {
   margin: 0 auto;
 }
 
-.duqqa-brown {
-  color: #45230f;
-}
-
-.hornblende-green {
-  color: #204d48;
-}
-
-.pistachio-cream {
-  background: #d5e2e2;
-}
-
-.white {
-  color: #fff;
-}
+/* Generic Styles End */
 
 /* Font Styles */
 .quantico {
@@ -558,6 +564,21 @@ input {
   grid-area: button;
 }
 
+@media screen and (min-width: 630px) {
+  .dcdform {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "name email"
+      "button button";
+    gap: 1em;
+  }
+
+  .signup__button {
+    font-size: 1.25rem;
+    align-self: center;
+  }
+}
+
 /* Form Styles End */
 
 /* Sitemap Styles */
@@ -609,7 +630,6 @@ input {
 
 .footer__container {
   background: #091b21;
-  color: #fff;
   text-transform: uppercase;
 }
 
@@ -621,36 +641,16 @@ input {
 }
 
 .copyright-txt {
-  font-size: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-@media screen and (min-width: 525px) {
+@media screen and (min-width: 480px) {
   .copyright-txt {
     justify-content: space-between;
   }
 }
 
 /* Footer Styles End */
-
-/* Media Queries */
-
-@media screen and (min-width: 630px) {
-  .dcdform {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-      "name email"
-      "button button";
-    gap: 1em;
-  }
-
-  .signup__button {
-    font-size: 1.25rem;
-    align-self: center;
-  }
-}
-
-/* Media Queries End */
