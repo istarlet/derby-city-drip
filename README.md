@@ -5,9 +5,6 @@ I refactored the one-page website for the fictional **Derby City Drip** coffee s
 You can view the original **Derby City Drip** project [here](https://github.com/istarlet/derby_city_drip). 
 
 ## How to Run this Project
-
-To run this project:
-
 First make sure that you have NodeJs intalled locally. 
 
 Then from the terminal 
