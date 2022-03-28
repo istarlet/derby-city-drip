@@ -8,10 +8,15 @@ You can view the original **Derby City Drip** project [here](https://github.com/
 
 To run this project:
 
-- `npm install` 
-- `npm run dev` 
+First make sure that you have NodeJs intalled locally. 
 
-After running the server, please view my project at http://localhost:3000/
+Then from the terminal 
+
+- `npm install` to install the needed packages
+
+- `node server.js` to start the server
+
+Once you see `Server is running on 3000`, please view my project at http://localhost:3000/
 
 ## Javascript Features
 `1. Read and parse an external file (such as JSON or CSV) into your application and display some data from that in your app`
