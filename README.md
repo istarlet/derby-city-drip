@@ -18,7 +18,7 @@ Once you see `Server is running on 3000`, please view my project at http://local
 ## Javascript Features
 `1. Read and parse an external file (such as JSON or CSV) into your application and display some data from that in your app`
 
-I created a json file that contains the Derby City Drip Coffee Shop menu items divided into groups: Coffee, Non-Coffee, Tea, and Pastry.
+I created a json file that contains the Derby City Drip Coffee Shop menu items divided into groups: Coffee, Non-Coffee, Tea, and Pastry. I used fetch() to grab the data from the menu.json file and then used map() to display the data as individual menu items in html on the web page. 
 
 _ _ _
 
@@ -30,7 +30,8 @@ _ _ _
  
 `3. Create an array, dictionary or list, populate it with multiple values, retrieve at least one value, and use or display it in your application`
 
-Each group of menu items (Coffee, Non-Cofee, Tea, and Pastry) are setup as an array in the menu.json file. I used fetch() to grab each array from the menu.json file and displayed the data as individual menu items in html on the web page. 
+Each group of menu items (Coffee, Non-Cofee, Tea, and Pastry) are setup as an array in the menu.json file. I used fetch() to grab the data from the menu.json file and then used map() to display the data as individual menu items in html on the web page. 
+
 
 ## Additional Javascript Feature
 `Create a web server with at least one route and connect to it from your application using ExpressJS`
