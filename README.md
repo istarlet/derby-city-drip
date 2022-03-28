@@ -20,7 +20,7 @@ Once you see `Server is running on 3000`, please view my project at http://local
 
 I created a json file that contains the Derby City Drip Coffee Shop menu items divided into groups: Coffee, Non-Coffee, Tea, and Pastry.
 
----
+___
 
 `2. Create a form and save the values (on click of Submit button) to an external file`
 
