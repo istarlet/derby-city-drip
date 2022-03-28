@@ -25,6 +25,8 @@ _ _ _
 `2. Create a form and save the values (on click of Submit button) to an external file`
 
 The email signup form saves the NAME and EMAIL to MongoDB Atlas, the cloud based version of MongoDB. 
+
+_ _ _
  
 `3. Create an array, dictionary or list, populate it with multiple values, retrieve at least one value, and use or display it in your application`
 
