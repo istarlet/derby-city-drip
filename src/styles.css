@@ -63,7 +63,7 @@ img {
 }
 
 .container {
-  width: min(1200px, calc(70% + 100px));
+  width: min(1200px, calc(65% + 100px));
   margin: 0 auto;
 }
 
@@ -322,7 +322,6 @@ header {
 
 @media (min-width: 800px) {
   .hero-container {
-  
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
