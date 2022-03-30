@@ -318,10 +318,6 @@ header {
   width: 100%;
 }
 
-.btn {
-  justify-self: center;
-}
-
 @media (min-width: 800px) {
   .hero-container { 
       justify-content: center;
