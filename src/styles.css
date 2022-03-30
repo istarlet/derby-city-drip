@@ -302,7 +302,6 @@ header {
   display: flex;
   flex-wrap: wrap;
 
-
   padding: 2em 0;
 }
 
@@ -319,11 +318,10 @@ header {
 }
 
 @media (min-width: 800px) {
-  .hero-container { 
-      justify-content: center;
-      align-items: center;
-    }
-
+  .hero-container {
+    justify-content: center;
+    align-items: center;
+  }
 
   .hero-txt {
     width: 50%;
@@ -339,20 +337,28 @@ header {
 /* Hero Button Styles */
 
 .btn {
-  display: inline-block;
+  display: inline-flex;
   font-family: "Quantico", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
   background-color: #45230f;
   color: #fff;
   padding: 0.75em 2em;
   border-radius: 10px;
+  justify-content: center;
+  align-self: center;
 }
 
 .btn:hover,
 .btn:focus {
   opacity: 0.75;
+}
+
+@media (min-width: 800px) {
+  .btn {
+    flex-grow: 1;
+  }
 }
 /* Hero Button Style End */
 
