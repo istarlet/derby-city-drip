@@ -299,7 +299,8 @@ header {
 /* Hero Styles */
 .hero-container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+
 
   padding: 2em 0;
 }
@@ -321,11 +322,11 @@ header {
 }
 
 @media (min-width: 800px) {
-  .hero-container {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-  }
+  .hero-container { 
+      justify-content: center;
+      align-items: center;
+    }
+
 
   .hero-txt {
     width: 50%;
