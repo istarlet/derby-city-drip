@@ -2,7 +2,9 @@
 ## Description
 I refactored the one-page website for the fictional **Derby City Drip** coffee shop I originally coded during Code Kentucky FEWD Session 1 for my [Code Kentucky](https://codekentucky.org/) FEWD Session 2 project.
 
-You can view the original **Derby City Drip** project [here](https://github.com/istarlet/derby_city_drip). 
+You can view my original **Derby City Drip** project [here](https://github.com/istarlet/derby_city_drip). 
+
+The current **Derby City Drip** website, while it appears visually nearly identical to the original, now uses javascript to update and display the menu items, collect email addresses to a cloud database, and display a map with the location that can be zoomed in or out. The specifics about these features can be found below. 
 
 ## How to Run this Project
 Please make sure that you have NodeJs intalled locally before proceeding. 
