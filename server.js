@@ -6,7 +6,6 @@ const res = require("express/lib/response");
 const { response } = require("express");
 
 app.use(express.json({ extended: false }));
-app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 mongoose.connect(

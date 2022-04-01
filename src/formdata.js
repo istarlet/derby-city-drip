@@ -1,5 +1,5 @@
 const successMsg = document.getElementById("button");
-const dcdForm = document.getElementById("example-form");
+const dcdForm = document.getElementById("dcdform");
 
 async function postFormDataAsJson({ url, formData }) {
   const plainFormData = Object.fromEntries(formData.entries());
