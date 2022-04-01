@@ -40,11 +40,11 @@ Each group of menu items (Coffee, Non-Cofee, Tea, and Pastry) are setup as an ar
 
 I connected my signup form to MongoDB Atlas by creating a web server in ExpressJS. 
 
+Click image to watch a YouTube video showing the form submission is correctly setup through ExpressJS and posting to MongoDB Atlas.
+
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=oBD7WD_XQNg
 " target="_blank" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/oBD7WD_XQNg/0.jpg" 
 alt="YouTube video showing form submission connection to MongoDB Atlas" width="240" height="180" border="10" /></a>
-
-[![Click here to watch Youtube](http://img.youtube.com/vi/oBD7WD_XQNg/0.jpg)](http://www.youtube.com/watch?v=oBD7WD_XQNg)
 
 ## Javascript Feature Not Listed on Project Requirements
 `Use Leaflet.js to create an interactive map`
