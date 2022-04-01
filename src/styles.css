@@ -608,7 +608,7 @@ input {
 }
 
 @media screen and (min-width: 630px) {
-  .dcdform {
+  .emailform {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "name email"
