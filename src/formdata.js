@@ -1,5 +1,5 @@
 const successMsg = document.getElementById("button");
-const exampleForm = document.getElementById("example-form");
+const dcdForm = document.getElementById("example-form");
 
 async function postFormDataAsJson({ url, formData }) {
   const plainFormData = Object.fromEntries(formData.entries());
@@ -17,7 +17,7 @@ async function postFormDataAsJson({ url, formData }) {
   const response = await fetch(url, fetchOptions);
   // This is where I add things once form is submitted
   successMsg.textContent = "Form Submitted!";
-  exampleForm.reset();
+  dcdForm.reset();
 
   if (!response.ok) {
     const errorMessage = await response.text();
@@ -42,4 +42,4 @@ async function handleFormSubmit(event) {
   }
 }
 
-exampleForm.addEventListener("submit", handleFormSubmit);
+dcdForm.addEventListener("submit", handleFormSubmit);
