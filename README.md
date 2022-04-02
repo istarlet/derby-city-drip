@@ -7,7 +7,7 @@ You can view my original **Derby City Drip** project [here](https://github.com/i
 The current **Derby City Drip** website, while it appears visually nearly identical to the original, now uses javascript to update and display the menu items, collect email addresses to a cloud database, and display a map with the location that can be zoomed in or out. The specifics about these features can be found below. 
 
 ## How to Run this Project
-Please make sure that you have NodeJs intalled locally before proceeding. 
+Please make sure that you have NodeJs installed locally before proceeding. 
 
 From the terminal 
 
