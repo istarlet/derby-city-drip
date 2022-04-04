@@ -1,4 +1,4 @@
-# Derby City Drip v2.0
+# Derby City Drip Coffee Shop Website v2.0
 ## Description
 I refactored the one-page website for the fictional **Derby City Drip** coffee shop I originally coded during Code Kentucky FEWD Session 1 for my [Code Kentucky](https://codekentucky.org/) FEWD Session 2 project.
 
