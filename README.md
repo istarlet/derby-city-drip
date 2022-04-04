@@ -1,4 +1,4 @@
-# Derby City Drip v2.0
+# Derby City Drip Coffee Shop Website v2.0
 ## Description
 I refactored the one-page website for the fictional **Derby City Drip** coffee shop I originally coded during Code Kentucky FEWD Session 1 for my [Code Kentucky](https://codekentucky.org/) FEWD Session 2 project.
 
@@ -7,7 +7,7 @@ You can view my original **Derby City Drip** project [here](https://github.com/i
 The current **Derby City Drip** website, while it appears visually nearly identical to the original, now uses javascript to update and display the menu items, collect email addresses to a cloud database, and display a map with the location that can be zoomed in or out. The specifics about these features can be found below. 
 
 ## How to Run this Project
-Please make sure that you have NodeJs intalled locally before proceeding. 
+Please make sure that you have NodeJs installed locally before proceeding. 
 
 From the terminal 
 
@@ -39,6 +39,12 @@ Each group of menu items (Coffee, Non-Cofee, Tea, and Pastry) are setup as an ar
 `Create a web server with at least one route and connect to it from your application using ExpressJS`
 
 I connected my signup form to MongoDB Atlas by creating a web server in ExpressJS. 
+
+Click the image to watch a YouTube video showing that the form submission is correctly setup through ExpressJS and posting to MongoDB Atlas.
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=oBD7WD_XQNg
+" target="_blank" rel="noopener noreferrer"><img src="http://img.youtube.com/vi/oBD7WD_XQNg/0.jpg" 
+alt="YouTube video showing form submission connection to MongoDB Atlas" width="240" height="180" border="10" /></a>
 
 ## Javascript Feature Not Listed on Project Requirements
 `Use Leaflet.js to create an interactive map`
