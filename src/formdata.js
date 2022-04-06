@@ -21,10 +21,10 @@ async function postFormDataAsJson({ url, formData }) {
 
   // This is where I add things once form is submitted
 
+  successMsg.textContent = "Form is submitting";
+
   successMsg.classList.add("spin");
   successMsg.disabled = true;
-
-  // successMsg.textContent = "Form is submitting";
 
   clearTimeout(timeout);
 
